@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "counting-manifolds"
+version = "0.1.0"
+description = ""
+authors = ["ummagumma <siniy.vyacheslav@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+numpy = "<2"
+pandas = "^3.0.0"
+pyrallis = "^0.3.1"
+torch = "2.9"
+transformers = "<5.0.0"
+accelerate = "^1.12.0"
+circuitsvis = "^1.43.3"
+datasets = "^4.5.0"
+loguru = "^0.7.3"
+sae-lens = "6.30.0"
+tqdm = "^4.67.3"
+scikit-learn = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

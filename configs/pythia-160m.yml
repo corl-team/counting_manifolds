@@ -1,0 +1,25 @@
+seed: 1
+
+model_name: EleutherAI/pythia-160m-deduped
+dataset_name: HuggingFaceFW/fineweb
+output_path: /storage/counting-manifolds
+batch_size: 4
+num_workers: 14
+
+line_length: 150
+num_samples: 1000
+min_lines: 10
+n_components: 6
+max_seq_len: 1024
+use_chat: false
+
+log_first_n: 25
+sae_top_k_for_save: 100
+
+num_features_for_sae_span: 20
+
+pca_n_omit: 20
+pca_n_components: 6
+
+run_best_layer_only: false
+best_layer: 0
